@@ -9,3 +9,22 @@
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
+@media screen and (max-width: 520px) {
+	table.responsive {
+		width: 100%;
+	}
+	thead {
+		display: none;
+	}
+	td {
+		display: block;
+		text-align: right;
+		border-right: 1px solid #e1edff;
+	}
+	td::before {
+		float: left;
+		text-transform: uppercase;
+		font-weight: bold;
+		content: attr(data-header);
+	}
+}
