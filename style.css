@@ -10,4 +10,9 @@
         color: green;
     }
 }
+body{background-image:url(device-apple-wallpaper.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat
+    }
 
